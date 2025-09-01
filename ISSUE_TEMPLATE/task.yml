@@ -1,0 +1,18 @@
+name: Task
+description: Невелика задача
+title: "[task] "
+labels: ["task"]
+body:
+  - type: textarea
+    id: goal
+    attributes:
+      label: Мета
+      placeholder: Що потрібно зробити
+      render: markdown
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Нотатки
+      placeholder: Додаткова інформація
