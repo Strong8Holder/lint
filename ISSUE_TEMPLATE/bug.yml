@@ -1,0 +1,22 @@
+name: Bug report
+description: Проблема або регрес
+title: "[bug] "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: Що сталося
+      placeholder: Опиши очікувану і фактичну поведінку
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Кроки відтворення
+      placeholder: 1. ... 2. ... 3. ...
+  - type: input
+    id: env
+    attributes:
+      label: Середовище
+      placeholder: OS, версії
